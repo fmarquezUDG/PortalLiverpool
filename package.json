@@ -7,7 +7,8 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run --browser chrome --headed",
     "report:generate": "node generate-report.js",
-    "test:report": "npm run cypress:run && npm run report:generate"
+    "test:report": "npm run cypress:run && npm run report:generate",
+    "test": "npm run cypress:run"
   },
   "keywords": [],
   "author": "",
