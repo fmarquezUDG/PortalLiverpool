@@ -4,29 +4,23 @@ report.generate({
   jsonDir: "cypress/reports/cucumber-json",
   reportPath: "cypress/reports/html",
 
-  // Título de la pestaña del navegador
   pageTitle: "Liverpool QA Report",
 
-  // Título visible en el header del reporte
   reportName: "Liverpool - Portal de Pruebas Automatizadas",
 
-  // Logo personalizado (URL o ruta local)
   customStyle: "./custom-style.css",
 
-  // Abrir el reporte automáticamente al generarse
   openReportInBrowser: true,
 
   displayDuration: true,
   displayReportTime: true,
 
-  // Datos del ambiente
   metadata: {
     browser: { name: "chrome", version: "124" },
     device: "Local",
     platform: { name: "Windows", version: "11" },
   },
 
-  // Tabla de datos personalizados
   customData: {
     title: "Información del Sprint",
     data: [
