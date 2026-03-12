@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #e91e8c !important;
+}
+
+.passed {
+  background-color: #2ecc71 !important;
+}
+
+.failed {
+  background-color: #e74c3c !important;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif !important;
+}
+
+.navbar-brand span,
+.navbar-header span,
+[class*="report-name"],
+[class*="reportName"],
+.navbar h1,
+.navbar h2,
+.navbar p,
+.navbar span {
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+.navbar-brand::before {
+  content: '';
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  background-image: url('./cypress/reports/html/assets/img/liverpool.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+}
+
+.navbar-brand {
+  display: flex !important;
+  align-items: center !important;
+}
