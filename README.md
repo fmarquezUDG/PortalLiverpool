@@ -129,6 +129,5 @@ Incluye:
 
 ## Autor
 
-Angel - QA Analyst
-Proyecto: ATV03 | Sprint ATV03-2
-Universidad de Guadalajara
+Angel - QA Automation Sr.
+Proyecto: ATV03 | Sprint 03-01
